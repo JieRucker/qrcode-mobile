@@ -1,0 +1,141 @@
+{
+  "data": {
+    "checkCycle": 0,
+    "radioBoxList": [
+      {
+        "defaultSelected": true,
+        "sortId": 0,
+        "value": "正常"
+      },
+      {
+        "defaultSelected": false,
+        "sortId": 1,
+        "value": "异常"
+      }
+    ],
+    "recordGroupList": [
+      {
+        "normalRecordGroupInfoList": [
+          {
+            "normalRecordGroupInfoCfg": {
+              "nullable": true,
+              "radioBoxList": [
+                {
+                  "defaultSelected": true,
+                  "sortId": 0,
+                  "value": "正常"
+                },
+                {
+                  "defaultSelected": false,
+                  "sortId": 1,
+                  "value": "异常"
+                }
+              ],
+              "recordDesc": "文本备注",
+              "recordTitle": "cpu情况",
+              "recordType": 3,
+              "sortId": 0
+            }
+          },
+          {
+            "normalRecordGroupInfoCfg": {
+              "nullable": true,
+              "radioBoxList": [
+                {
+                  "defaultSelected": true,
+                  "sortId": 0,
+                  "value": "正常"
+                },
+                {
+                  "defaultSelected": false,
+                  "sortId": 1,
+                  "value": "异常"
+                }
+              ],
+              "recordDesc": "",
+              "recordTitle": "主板情况",
+              "recordType": 3,
+              "sortId": 1
+            }
+          },
+          {
+            "normalRecordGroupInfoCfg": {
+              "nullable": true,
+              "radioBoxList": [
+                {
+                  "defaultSelected": true,
+                  "sortId": 0,
+                  "value": "正常"
+                },
+                {
+                  "defaultSelected": false,
+                  "sortId": 1,
+                  "value": "异常"
+                }
+              ],
+              "recordDesc": "",
+              "recordTitle": "内存情况",
+              "recordType": 3,
+              "sortId": 2
+            }
+          },
+          {
+            "normalRecordGroupInfoCfg": {
+              "nullable": true,
+              "radioBoxList": [
+                {
+                  "defaultSelected": true,
+                  "sortId": 0,
+                  "value": "正常"
+                },
+                {
+                  "defaultSelected": false,
+                  "sortId": 1,
+                  "value": "异常"
+                }
+              ],
+              "recordDesc": "",
+              "recordTitle": "显卡情况",
+              "recordType": 3,
+              "sortId": 3
+            }
+          },
+          {
+            "normalRecordGroupInfoCfg": {
+              "nullable": false,
+              "recordDesc": "",
+              "recordTitle": "其他备注",
+              "recordType": 0,
+              "sortId": 4
+            }
+          },
+          {
+            "normalRecordGroupInfoCfg": {
+              "imageCfg": {
+                "uploadType": 0,
+                "waterMark": []
+              },
+              "nullable": false,
+              "recordDesc": "",
+              "recordTitle": "主机情况照片",
+              "recordType": 1,
+              "sortId": 5
+            }
+          }
+        ],
+        "recodGroupType": 1,
+        "recordGroupName": "检查状态",
+        "sortId": 0
+      }
+    ],
+    "recordSumaryTitle": "检查状态",
+    "recordSummaryType": 0,
+    "recordTemplateCategoryId": "06dd41b3562002",
+    "recordTemplateDesc": "备注1",
+    "recordTemplateId": "20f7be9fab9000",
+    "recordTemplateName": "计算机维护报告"
+  },
+  "retCode": "0",
+  "retMsg": "查询记录模板成功",
+  "success": true
+}

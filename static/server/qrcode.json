@@ -1,0 +1,437 @@
+{
+  "success": true,
+  "data": {
+    "templateId": "t001",
+    "templateName": "模板名",
+    "templateDesc": "模板描述",
+    "templateType": 0,
+    "templateInfoVO": "基本信息设置",
+    "templateRecordStateVO": "状态组",
+    "templateFoldId": "模板文件夾编号",
+    "createDate": "创建时间",
+    "moduleVOList": [
+      {
+        "moduleId": "m000",
+        "moduleTitle": "0图片标题",
+        "moduleType": 0,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "displayAuthState": 3,
+          "editAuthState": 1,
+          "imageUrl": "https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg"
+        }
+      },
+      {
+        "moduleId": "m001",
+        "moduleTitle": "1图文标题",
+        "moduleType": 1,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "textContent": "Sass 是一款强化 CSS 的辅助工具，它在 CSS 语法的基础上增加了变量 (variables)、嵌套 (nested rules)、混合 (mixins)、导入 (inline imports) 等高级功能，这些拓展令 CSS 更加强大与优雅。使用 Sass 以及 Sass 的样式库（如 Compass）有助于更好地组织管理样式文件，以及更高效地开发项目。",
+          "imageUrl": "https://bizimg.clewm.net/903/728/2728903/1519873553167bc3d2610fddd9d51638f7627b85f0fab1519873544.jpg@20Q"
+        }
+      },
+      {
+        "moduleId": "m002",
+        "moduleTitle": "2产品参数标题",
+        "moduleType": 2,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "productParameterList": [
+            {
+              "paramName": "参数名称参数名称参数名称参数名称参数名称",
+              "type": 0,
+              "displayable": 1,
+              "text": "文本",
+              "image": {
+                "imageUrl": "https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg"
+              },
+              "link": {
+                "linkName": "百度0",
+                "linkUrl": "http://www.baidu.com"
+              },
+              "textarea": "多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本"
+            },
+            {
+              "paramName": "我是图片",
+              "type": 1,
+              "displayable": 1,
+              "text": "文本",
+              "image": {
+                "imageUrl": "https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg"
+              },
+              "link": {
+                "linkName": "百度1",
+                "linkUrl": "http://www.baidu.com"
+              },
+              "textarea": "多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本"
+            },
+            {
+              "paramName": "我是链接",
+              "type": 2,
+              "displayable": 1,
+              "text": "文本",
+              "image": {
+                "imageUrl": "https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg"
+              },
+              "link": {
+                "linkName": "百度2",
+                "linkUrl": "http://www.baidu.com"
+              },
+              "textarea": "多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本"
+            },
+            {
+              "paramName": "我是分组",
+              "type": 4,
+              "displayable": 1,
+              "text": "分组名称分组名称分组名称分组名称分组名称",
+              "image": {
+                "imageUrl": "https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg"
+              },
+              "link": {
+                "linkName": "百度4",
+                "linkUrl": "http://www.baidu.com"
+              },
+              "textarea": "多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本"
+            },
+            {
+              "paramName": "我是多行文本",
+              "type": 3,
+              "displayable": 1,
+              "text": "文本",
+              "image": {
+                "imageUrl": "https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg"
+              },
+              "link": {
+                "linkName": "百度3",
+                "linkUrl": "http://www.baidu.com"
+              },
+              "textarea": "多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本"
+            },
+            {
+              "paramName": "我不存在",
+              "type": 0,
+              "displayable": 0,
+              "text": "不存在的",
+              "image": {
+                "imageUrl": "https://ww1.sinaimg.cn/large/663d3650gy1fq66vw50iwj20ff0aaaci.jpg"
+              },
+              "link": {
+                "linkName": "百度5",
+                "linkUrl": "http://www.baidu.com"
+              },
+              "textarea": "多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本多行文本"
+            }
+          ]
+        }
+      },
+      {
+        "moduleId": "m003",
+        "moduleTitle": "3文件标题",
+        "moduleType": 3,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 2,
+        "moduleObject": {
+          "displayAuthState": 3,
+          "fileList": [
+            {
+              "bucketName": "image-bucket",
+              "fileName": "test.jpg",
+              "fileSize": "123",
+              "fileUrl": "阿里巴巴.docx",
+              "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+            },
+            {
+              "bucketName": "image-bucket",
+              "fileName": "阿里巴巴阿里巴巴阿里巴巴阿里巴巴阿里巴巴.docx",
+              "fileSize": "163.8KB",
+              "fileUrl": "https://www.baidu.com",
+              "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+            },
+            {
+              "bucketName": "image-bucket",
+              "fileName": "图片.png",
+              "fileSize": "660.5KB",
+              "fileUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+            },
+            {
+              "bucketName": "image-bucket",
+              "fileName": "音频.mp3",
+              "fileSize": "9.5MB",
+              "fileUrl": "https://biz.cli.im/Public/images/vcardbg7.mp5",
+              "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+            },
+            {
+              "bucketName": "image-bucket",
+              "fileName": "视频.mp4",
+              "fileSize": "123MB",
+              "fileUrl": "http://qrcodeimage.youbim.cn/qrcode/template_info/$template_info_image.$suffix",
+              "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+            }
+          ]
+        }
+      },
+      {
+        "moduleId": "m004",
+        "moduleTitle": "4图集标题",
+        "moduleType": 4,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "displayAuthState": 1,
+          "imageList": [
+            {
+              "imageName": "p1",
+              "url": "javascript:",
+              "img": "http://gplove.top/dog1.png"
+            },
+            {
+              "imageName": "p2",
+              "url": "javascript:",
+              "img": "http://gplove.top/dog2.png"
+            },
+            {
+              "imageName": "p3",
+              "url": "javascript:",
+              "img": "http://gplove.top/dog3.png"
+            }
+          ]
+        }
+      },
+      {
+        "moduleId": "m005",
+        "moduleTitle": "5链接标题",
+        "moduleType": 5,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "showWxTip": 1,
+          "moduleDesc": "链接描述",
+          "linkList": [
+            {
+              "text": "百度",
+              "url": "#"
+            },
+            {
+              "text": "新浪",
+              "url": "#"
+            }
+          ]
+        }
+      },
+      {
+        "moduleId": "m006",
+        "moduleTitle": "6名片标题",
+        "moduleType": 6,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "cardId": "001",
+          "card": {
+            "fullName": "柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南柯南",
+            "position": "侦探",
+            "mobilePhone": "18601467018",
+            "avatarImage": "http://gplove.top/dog1.png"
+          }
+        }
+      },
+      {
+        "moduleId": "m007",
+        "moduleTitle": "7视频标题",
+        "moduleType": 7,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "displayAuthState": 3,
+          "videoUrl": "http://gplove.top/audio1.mp3"
+        }
+      },
+      {
+        "moduleId": "m008",
+        "moduleTitle": "8音频标题",
+        "moduleType": 8,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "displayAuthState": 3,
+          "videoUrl": "http://gplove.top/audio1.mp3"
+        }
+      },
+      {
+        "moduleId": "m009",
+        "moduleTitle": "9联系我们标题",
+        "moduleType": 9,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "moduleDesc": "联系我们描述",
+          "address": {
+            "longitude": "30.193513",
+            "dimension": "120.223289",
+            "addr": "春波南苑"
+          },
+          "contactWayList": [
+            {
+              "name": "家庭电话",
+              "type": 1,
+              "content": "158695263654"
+            },
+            {
+              "name": "公司电话",
+              "type": 2,
+              "content": "18695995588"
+            }
+          ]
+        }
+      },
+      {
+        "moduleId": "m011",
+        "moduleTitle": "11分类标题",
+        "moduleType": 11,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "linkName": "11分类标题",
+          "templateId": "001",
+          "classifyContent": "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。如果你想在深入学习 Vue 之前对它有更多了解，我们制作了一个视频，带您了解其核心概念和一个示例工程。"
+        }
+      },
+      {
+        "moduleId": "m012",
+        "moduleTitle": "12网址导航",
+        "moduleType": 12,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 3,
+        "moduleObject": {
+          "image": {
+            "imageUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg"
+          },
+          "navigationType": 4,
+          "navigationList": [
+            {
+              "navigationName": "百度",
+              "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "actionType": 0,
+              "linkUrl": "http://www.baidu.com",
+              "pageNavigation": "#module-title",
+              "templateId": "t002"
+            },
+            {
+              "navigationName": "百度3",
+              "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "actionType": 2,
+              "linkUrl": "http://www.baidu.com",
+              "pageNavigation": "#module-title",
+              "templateId": "t002"
+            },
+            {
+              "navigationName": "百度4",
+              "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "actionType": 0,
+              "linkUrl": "http://www.baidu.com",
+              "pageNavigation": "#module-title",
+              "templateId": "t002"
+            },
+            {
+              "navigationName": "百度5",
+              "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "actionType": 1,
+              "linkUrl": "http://www.baidu.com",
+              "pageNavigation": "#module-title",
+              "templateId": "t002"
+            },
+            {
+              "navigationName": "百度6",
+              "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "actionType": 2,
+              "linkUrl": "http://www.baidu.com",
+              "pageNavigation": "#module-title",
+              "templateId": "t002"
+            },
+            {
+              "navigationName": "百度7",
+              "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "actionType": 0,
+              "linkUrl": "http://www.baidu.com",
+              "pageNavigation": "#module-title",
+              "templateId": "t002"
+            },
+            {
+              "navigationName": "百度8",
+              "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+              "actionType": 1,
+              "linkUrl": "http://www.baidu.com",
+              "pageNavigation": "#module-title",
+              "templateId": "t002"
+            }
+          ]
+        }
+      },
+      {
+        "moduleId": "m013",
+        "moduleTitle": "13记录标题",
+        "moduleType": 13,
+        "templateId": "t001",
+        "isFold": 1,
+        "sortId": 1,
+        "moduleObject": {
+          "cardId": "001",
+          "recordList": [
+            {
+              "statusBefore": "正常",
+              "statusAfter": "异常",
+              "type": "维修整改",
+              "result": "维修中",
+              "date": "20180621",
+              "time": "1425",
+              "user": "公开用户"
+            },
+            {
+              "statusBefore": "正常",
+              "statusAfter": "正常",
+              "type": "配电箱每日巡检",
+              "result": "维修中",
+              "date": "20180622",
+              "time": "1422",
+              "user": "公开用户"
+            },
+            {
+              "statusBefore": "正常",
+              "statusAfter": "已维修",
+              "type": "日常巡检",
+              "result": "维修中",
+              "date": "20180623",
+              "time": "1429",
+              "user": "公开用户"
+            },
+            {
+              "statusBefore": "正常",
+              "statusAfter": "",
+              "type": "维修整改",
+              "result": "维修中",
+              "date": "20180624",
+              "time": "1427",
+              "user": "公开用户"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

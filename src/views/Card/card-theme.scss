@@ -1,0 +1,90 @@
+//8个主题颜色
+$theme1-color1: #2d8cf0;//细线 小按钮文字和边框，左边字体颜色（内容标题颜色）
+$theme1-color2: #87bdf6;//名片背景浅色的（粗线）
+$theme1-color31: #006aec;//大按钮背景颜色1  （渐变）
+$theme1-color32: #00b2f8;//大按钮背景颜色2  （渐变）
+
+$theme2-color1: #ff948e;
+$theme2-color2: #feeceb;
+$theme2-color31: #ff9a9e;
+$theme2-color32: #fad0c4;
+
+$theme3-color1: #d18bca;
+$theme3-color2: #ffeffd;
+$theme3-color31: #a18cd1;
+$theme3-color32: #fbc2eb;
+
+$theme4-color1: #24dacb;
+$theme4-color2: #defcfa;
+$theme4-color31: #74ebd5;
+$theme4-color32: #9face6;
+
+$theme5-color1: #e29fa6;
+$theme5-color2: #fceaec;
+$theme5-color31: #ff9a9e;
+$theme5-color32: #fecfef;
+
+$theme6-color1: #21e09b;
+$theme6-color2: #e8fbf4;
+$theme6-color31: #00cdac;
+$theme6-color32: #8ddad5;
+
+$theme7-color1: #333333;
+$theme7-color2: #eeeeee;
+$theme7-color31: #93a5cf;
+$theme7-color32: #e4efe9;
+
+$theme8-color1: #8a8fe0;
+$theme8-color2: #e6e8fb;
+$theme8-color31: #9795f0;
+$theme8-color32: #fbc8d4;
+
+//8个主题
+.cardBackgroundColor1{background-color: $theme1-color2 !important;}
+.borderTop1{border-top: 2px solid $theme1-color1 !important;}
+.cardAddressBtn1{background-color: transparent !important;color: $theme1-color1 !important;border: 1px solid $theme1-color1 !important;}
+.cardSaveBtn1{background-image: linear-gradient(to right, $theme1-color31,$theme1-color32) !important;}
+.cardBackgroundColor1 .vux-cell-bd .vux-label{color:$theme1-color1 !important}
+
+.cardBackgroundColor2{background-color: $theme2-color2 !important;}
+.borderTop2{border-top: 2px solid $theme2-color1 !important;}
+.cardAddressBtn2{background-color: transparent !important;color: $theme2-color1 !important;border: 1px solid $theme2-color1 !important;}
+.cardSaveBtn2{background-image: linear-gradient(to right, $theme2-color31,$theme2-color32) !important;}
+.cardBackgroundColor2 .vux-cell-bd .vux-label{color:$theme2-color1 !important}
+
+.cardBackgroundColor3{background-color: $theme3-color2 !important;}
+.borderTop3{border-top: 2px solid $theme3-color1 !important;}
+.cardAddressBtn3{background-color: transparent !important;color: $theme3-color1 !important;border: 1px solid $theme3-color1 !important;}
+.cardSaveBtn3{background-image: linear-gradient(to right, $theme3-color31,$theme3-color32) !important;}
+.cardBackgroundColor3 .vux-cell-bd .vux-label{color:$theme3-color1 !important}
+
+.cardBackgroundColor4{background-color: $theme4-color2 !important;}
+.borderTop4{border-top: 2px solid $theme4-color1 !important;}
+.cardAddressBtn4{background-color: transparent !important;color: $theme4-color1 !important;border: 1px solid $theme4-color1 !important;}
+.cardSaveBtn4{background-image: linear-gradient(to right, $theme4-color31,$theme4-color32) !important;}
+.cardBackgroundColor4 .vux-cell-bd .vux-label{color:$theme4-color1 !important}
+
+
+.cardBackgroundColor5{background-color: $theme5-color2;}
+.borderTop5{border-top: 2px solid $theme5-color1;}
+.cardAddressBtn5{background-color: transparent !important;color: $theme5-color1 !important;border: 1px solid $theme5-color1 !important;}
+.cardSaveBtn5{background-image: linear-gradient(to right, $theme5-color31,$theme5-color32) !important;}
+.cardBackgroundColor5 .vux-cell-bd .vux-label{color:$theme5-color1 !important}
+
+.cardBackgroundColor6{background-color: $theme6-color2 !important;}
+.borderTop6{border-top: 2px solid $theme6-color1 !important;}
+.cardAddressBtn6{background-color: transparent !important;color: $theme6-color1 !important;border: 1px solid $theme6-color1 !important;}
+.cardSaveBtn6{background-image: linear-gradient(to right, $theme6-color31,$theme6-color32) !important;}
+.cardBackgroundColor6 .vux-cell-bd .vux-label{color:$theme6-color1 !important}
+
+.cardBackgroundColor7{background-color: $theme7-color2 !important;}
+.borderTop7{border-top: 2px solid $theme7-color1 !important;}
+.cardAddressBtn7{background-color: transparent !important;color: $theme7-color1 !important;border: 1px solid $theme7-color1 !important;}
+.cardSaveBtn7{background-image: linear-gradient(to right, $theme7-color31,$theme7-color32) !important;}
+.cardBackgroundColor7 .vux-cell-bd .vux-label{color:$theme7-color1 !important}
+
+.cardBackgroundColor8{background-color: $theme8-color2 !important;}
+.borderTop8{border-top: 2px solid $theme8-color1 !important;}
+.cardAddressBtn8{background-color: transparent !important;color: $theme8-color1 !important;border: 1px solid $theme8-color1 !important;}
+.cardSaveBtn8{background-image: linear-gradient(to right, $theme8-color31,$theme8-color32) !important;}
+.cardBackgroundColor8 .vux-cell-bd .vux-label{color:$theme8-color1 !important}
